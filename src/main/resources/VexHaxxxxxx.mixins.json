@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.sainte.vexhaxxxxxx.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClientMixin",
+    "KeyboardMixin",
+    "InGameHudMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
